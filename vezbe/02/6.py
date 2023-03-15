@@ -23,3 +23,6 @@ if __name__ == '__main__':
     p2 = Point(10, -5)
     
     print(p1 + p2)
+    
+    # koje sve metode mozemo da predefinisemo
+    print(dir(p1))
