@@ -41,3 +41,14 @@
      >problem.addConstraint(constraint.InSetConstraint()) 
       
      >problem.addConstraint(constraint.MaxSumConstraint()) 
+
+# Notes:
+* **prednosti** constraint ogranicenja:  lakse je za programiranje, moje je da definisem problem, a alat ce da resi
+
+* **mana** constraint: nije efikasno jer se desava kombinatorna eksplozija i to kosta mnogo
+
+* map, filter, reduce:  **funkcije viseg reda**, mogu da prime argument kao funkciju ili da vrate funkciju
+
+    * map : na sve elemente primeni funkciju <br>
+    * filter : izfiltriraj listu po nekom zadatom kriterijumu <br>
+    * reduce : sazimam sve elemente u jednu vrednost <br>
