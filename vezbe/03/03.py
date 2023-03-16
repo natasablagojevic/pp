@@ -18,3 +18,10 @@ solutions = problem.getSolutions()
 
 for solution in solutions:
     print(solution)
+    
+# default constraints:
+#   1. constraint.MaxSumConstraint()    : maksimizacija sume
+#   2. constraint.MinSumConstraint()    : 
+#   3. constraint.ExactSumConstraint()  :
+#   4. constraint.InSetConstraint()     :
+#   5. ...
