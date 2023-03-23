@@ -1,0 +1,29 @@
+Tipski razredi : 
+	- jedan tip pripada tipskom razredu EQ : (=, !=)
+	- int dupliraj(int x) {
+		return 2*x;
+	  }
+
+	  double dupliraj(int x) {
+	  	retrun 2*x;
+	  }
+
+	  apstrahuj na sto opsijioblik (na sto vise mozes)
+
+	- functools.partial = fiksira argument funkcije
+
+	- preko ghci -> :l 1.hs		(ucitavanje fajla u interpreteru)
+	- kompajler dedukuje potpis
+
+	- *		je funkcija
+	  (*)	je funkcija
+
+	- petlja se ne uklapa u koncept jezika 
+
+	- strog formalizam -> lako se verifikuje
+
+	- stroga formalna verifikacija koda
+
+	- moraju se definisati tipovi na ispitu
+
+	- lista jednostruka i imutabilna
