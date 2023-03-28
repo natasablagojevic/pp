@@ -16,3 +16,11 @@
 
 *	$ desno asocijativan
 
+*	predikati:	f-je koje uzimaju f-je
+	- map
+	- takeWhile
+
+
+	- foldl
+	- foldr
+	
