@@ -1,0 +1,27 @@
+	filter :: (a -> Bool) -> [a] -> [a]
+	map :: (a -> b) -> [a] -> [b]
+	all :: Foldable t => (a -> Bool) -> t a -> Bool		# len == len(start) with begin
+	any :: Foldable t => (a -> Bool) -> t a -> Bool 	# len > 0 with map
+
+	# izbacuemo jednu vrednost
+	foldl :: (b -> a -> b) -> b -> t a -> b 			# sa leve strane kroz kolekciju
+	foldr :: (a -> b -> b) -> b -> t a -> begin			# sa desne strane kroz kolekciju
+
+
+
+			b 			a
+	foldl	0.0 	[1, 2, 3]	(+)
+			0.0+1 = 1.0
+			1.0+2 = 3.0
+			3.0+3 = 6.0
+
+			0.0 - 1 = -1.0
+			-1.0 - 2.0 = -3.0
+			-3.0 - 3.0 = -6.0
+
+	foldr	0.0	[1, 2, 3]	(-)
+			3-0.0 = 3.0
+			2 -3.0 = -1.0
+			1-(-1.0) = 2.0
+
+			
