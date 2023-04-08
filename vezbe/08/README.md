@@ -61,3 +61,11 @@
           this.atrinutN = vrN
         }
       }
+      
+      class ImeKlase {
+        teloKlase
+      }
+      
+      class ImeKlase(argumentiKonstruktora) {
+        teloKlase
+      }
