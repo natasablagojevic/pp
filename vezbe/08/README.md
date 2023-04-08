@@ -7,11 +7,11 @@
    - indentaija stringova <br>
    println(**s**"Film $film je niska") <br> 
    
-        println(""" 
-        | Ovo je 
-        | ispis u  
-        | vise linija 
-        |""".stripMargin)
+   **println("""  <br>
+     | Ovo je  <br>
+     | ispis u  <br>
+     | vise linija  <br>
+     |""".stripMargin) **
     
   # Petlje
   ## WHILE
@@ -56,5 +56,8 @@
           // bazni konstruktor
           this()
           this.atribut1 = vr1
+          this.atribut2 = vr2 
+          ...
+          this.atrinutN = vrN
         }
       }
