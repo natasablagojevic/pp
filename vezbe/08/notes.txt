@@ -1,0 +1,3 @@
+-	Scala
+-	strogo tipizirani jezik
+-	JVM - Java Virtuelna Masina

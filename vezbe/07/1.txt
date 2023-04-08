@@ -24,4 +24,21 @@
 			2 -3.0 = -1.0
 			1-(-1.0) = 2.0
 
+
+	*	foldl (+) 0 [1,2,3]
+		0 + 1 = 1
+
+		foldl (+) 1 [2,3]
+		1 + 2 = 3 
+
+		foldl (+) 3 [3]
+		3 + 3 = 6 
+
+		foldl (+) 6 []
+		6
+
+	*	foldl1, foldr1 uzimju prvi element kao akomulator 
+
+	
+
 			
