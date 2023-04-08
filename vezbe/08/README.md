@@ -43,3 +43,18 @@
       for (c <- "ashjfg")
         print(c + " ")
        println()
+
+  # FUNKCIJE
+      def imeFunkcije(arg1: Tip1, ..., argN: TipN): PovratnaVrednost = {
+       teloFunkcije
+      }
+      
+  # OOP KONCEPTI 
+      class ImeKlase {
+        // konstruktor 
+        def this(...) = {
+          // bazni konstruktor
+          this()
+          this.atribut1 = vr1
+        }
+      }
