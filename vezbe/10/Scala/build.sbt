@@ -7,9 +7,12 @@ lazy val root = (project in file("."))
     name := "Scala"
   )
 
-libraryDependencies ++= {
-  val sparkVer = "2.4.0"
-  Seq(
-    "org.apache.spark" %% "spark-core" % sparkVer
-  )
-}
+// https://mvnrepository.com/artifact/org.apache.spark/spark-core
+libraryDependencies += "org.apache.spark" %% "spark-core" % "3.4.0"
+
+//libraryDependencies ++= {
+//  val sparkVer = "2.4.0"
+//  Seq(
+//    "org.apache.spark" %% "spark-core" % sparkVer
+//  )
+//}

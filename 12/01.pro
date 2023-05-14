@@ -1,0 +1,3 @@
+% jednolinijski komentar
+/* viselinijski komentari */
+
