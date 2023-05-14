@@ -51,7 +51,7 @@ Term:
             
             is - aritmeticko izracunavanje 
             =:= - aritmeticka jednakost(=\=)
-            <, =<, >, =>
+            <, =<, >, >=
             +, -, *, /, //, div, mod, **
 
 
