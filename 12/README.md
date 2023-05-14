@@ -10,6 +10,7 @@
             /* viselinijski komentar */
 
 - REDOM:
+            
             compile('fajl)
             load('fajl')
             halt - izlaz
