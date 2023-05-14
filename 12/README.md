@@ -29,3 +29,24 @@ Term:
     - Upiti 
 
 - Program (niz Hornoive klauzula)
+
+- Sve sto Prolog radi jeste da pokusava da **generise neka resenja**, pretragom baze cinjenica i pravila koja su definisana
+
+- **Sve sto se navede smatra se da je tacno, sve sto se ne navede smatra se da je netacno** 
+
+- Sve sto prolog radi jeste dodeljivanje vrednosti promenljivoj tako da vazi
+
+- Provera tipa:
+
+            atom(11) - da li je atom
+            atomic(11.4) - da li je atom ili broj
+            number(23) - da li je broj
+            float(23.1) - da li je razlomljeni broj
+            var(X) - da li je promenljiva
+            nonvar(X) - 
+
+
+
+            = unifikabilnost (prisustvo promenljivih i dodelu vrednosti promenljivih, u cilju postizanja logicki tacno)
+            == indeticka jednakost
+
