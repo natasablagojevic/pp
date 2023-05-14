@@ -6,6 +6,7 @@
 
 - path: **/opt/BProlog/bp** na ispitu treba naci i tu raditi logicko programiranje
 
+            lenjo izracunavanje
             % linijski komentar
             /* viselinijski komentar */
 
@@ -43,10 +44,19 @@ Term:
             number(23) - da li je broj
             float(23.1) - da li je razlomljeni broj
             var(X) - da li je promenljiva
-            nonvar(X) - 
+            nonvar(X)
+            not(X=5) - negacija predikata
+            
+            
+            
+            is - aritmeticko izracunavanje 
+            =:= - aritmeticka jednakost(=\=)
+            <, =<, >, =>
+            +, -, *, /, //, div, mod, **
 
 
 
             = unifikabilnost (prisustvo promenljivih i dodelu vrednosti promenljivih, u cilju postizanja logicki tacno)
             == indeticka jednakost
+            negacija: \=, \==
 
