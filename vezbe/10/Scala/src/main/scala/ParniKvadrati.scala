@@ -4,7 +4,8 @@ import org.apache.spark.{SparkConf, SparkContext}
 import java.util.Scanner
 
 object ParniKvadrati {
-<<<<<<< HEAD
+// <<<<<<< HEAD
+// <<<<<<< HEAD
  def main(args: Array[String]): Unit = {
 
    /** SETUP - mora na ispitu */
@@ -29,6 +30,8 @@ object ParniKvadrati {
 
  }
 =======
+=======
+>>>>>>> 894772f (update)
   def main(args: Array[String]): Unit = {
 
     /** SETUP - mora na ispitu */
@@ -52,5 +55,33 @@ object ParniKvadrati {
     println(dataProcessed.mkString(", "))
 
   }
+<<<<<<< HEAD
 >>>>>>> 710a3a4 (update)
+=======
+=======
+ def main(args: Array[String]): Unit = {
+
+   /** SETUP - mora na ispitu */
+   val config: SparkConf = new SparkConf()
+     .setAppName("ParniKvadrati")
+     .setMaster("local[4]")
+   val ctx: SparkContext = new SparkContext()
+
+   // main
+   println("Unesite broj n: ")
+   val sc: Scanner = new Scanner(System.in)
+   val n: Int = sc.nextInt()
+   val data: Array[Int] = (2 to n by 2).toArray
+   val dataRDT: RDD[Int] = ctx.parallelize(data)
+
+   val dataProcessed: Array[Int] = dataRDT.map(e => e*e).collect()
+
+   ctx.stop()
+
+   println("Elementi: ")
+   println(dataProcessed.mkString(", "))
+
+ }
+>>>>>>> refs/remotes/origin/main
+>>>>>>> 894772f (update)
 }
