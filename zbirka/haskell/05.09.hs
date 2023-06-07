@@ -1,0 +1,1 @@
+prost:: Int -> Bool

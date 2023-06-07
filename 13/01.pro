@@ -20,6 +20,7 @@ maksimum([], _):- fail.
 maksimum([G], G):- !.
 maksimum([G|R], M):- maksimum(R, M1), G >= M1, M is G, !.
 maksimum([G|R], M):- maksimum(R, M1), G < M1, M is M1.
+% ------------------------------------------------------------
 
 % bude na ispitu
 % zagonetke
